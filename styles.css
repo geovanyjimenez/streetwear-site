@@ -69,11 +69,32 @@
       color: whitesmoke;
       text-decoration: none;
   }
-  a:hover {
+  nav a:hover {
       text-decoration: none;
       color: rgb(68, 255, 255);
       font-style: ;
       font-size: 14px;
   }
 
+  .merch a:hover {
+    text-decoration: none;
+    color: rgb(68, 255, 255);
+    font-style: none;
+  }
+
+  .merch {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+      font-size: 12px;
+  }
+
+  .fall19-images {
+      height: 400px;
+      width: 400px;
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+  }
  
