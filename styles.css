@@ -88,11 +88,11 @@
       justify-content: space-around;
       text-align: center;
       font-size: 12px;
-  }
+ }
 
   .fall19-images {
-      height: 400px;
-      width: 400px;
+      height: 320px;
+      width: 320px;
       margin: 5px 0;
       display: flex;
       align-items: center;
