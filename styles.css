@@ -8,24 +8,27 @@
       border: 1px dashed red;
   } */
 
+
   body {
         font-family: arial, sans-serif;
         font-size: 20px;
         text-transform: uppercase;
         line-height: 1.5;
         letter-spacing: 0.3px;
+        color: whitesmoke;
+        background-color: black;
   }
 
   
   .banner {
-      border: 1px dashed blue;
-      /* margin: 50px 25px; */
+      color: white;
       display: flex;
       justify-content: center;
   }
 
   .main-nav {
-      border: 1px solid green;
+      /* border: 1px solid green; */
+      font-size: 15px;
       display: flex;
       justify-content: center;
   }
@@ -33,21 +36,44 @@
   .nav-list {
       /* border: 1px solid yellowgreen; */
       padding: 0 25px 50px 0;
-      /* display: flex;
+      /* display: flex; */
       flex-direction: column;
       justify-content: flex-start; */
       
   }
 
-  /* .main-page {
-      border: 1px solid red;
+  .main-page {
+      /* border: 1px solid red;*/
       display: flex;
-      /* justify-content: center;
-      flex-direction: flex-end; */
-  } */
-
-  .article-one {
-      border: 1px solid blue;
-      display: flex;
-      flex-direction: flex-end;
+      flex-direction: row-reverse;
+      width: 100%;
   }
+
+ 
+  .article-one {
+      /* border: 1px solid blue;*/
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+  .storefront,
+  .beast,
+  .article-one {
+      border: 1px solid rgb(24, 24, 24);
+  }
+
+  a:link,
+  a:visited {
+      color: whitesmoke;
+      text-decoration: none;
+  }
+  a:hover {
+      text-decoration: none;
+      color: rgb(68, 255, 255);
+      font-style: ;
+      font-size: 14px;
+  }
+
+ 

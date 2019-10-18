@@ -1,0 +1,37 @@
+ /* Mobile Styles */
+ @media only screen and (max-width: 400px) {
+
+    body {
+        font-family: arial, sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        line-height: 1.5;
+        letter-spacing: 0.3px;
+        color: whitesmoke;
+        background-color: black;
+  }
+
+
+    /* .banner,
+    .main-nav {
+        display: flex;
+        align-content: center;
+    }
+
+    .storefront,
+    .beast,
+    .article-one {
+      border: 1px solid pink;
+    }
+
+    .main-page {
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+}
+
+    .article-one {
+        font-size: 
+    } */
+
+}
