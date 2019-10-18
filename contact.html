@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'/>
+        <title>Speaker Submission</title>
+        <link rel='stylesheet' href='styles.css'/>
+    </head>
+
+    <body class='contact-body'>
+            <header class='main-header'>
+                    <h1 class='banner'>Houston Natives StreetWear</h1>
+                    <nav>
+                        <ul class='main-nav' style="list-style-type: none;">
+                            <li class='nav-list'><a href='index.html'>Home</a></li>
+                            <li class='nav-list'><a href='fall19.html'>Fall '19</a></li>
+                            <li class='nav-list'><a href='gallery.html'>Gallery</a></li>
+                            <li class='nav-list'><a href='contact.html'>Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            <div class=custom-form>
+        <form action='' method='get' class='speaker-form'>
+            <div class='form-row'>
+                <label for='first-name'>First Name:</label>
+                <input id='first-name' name='first-name' type='text'/>
+            </div>
+            <div class='form-row'>
+                    <label for='last-name'>Last Name:</label>
+                    <input id='last-name' name='last-name' type='text'/>
+                </div>
+            <div class='form-row'>
+                <label for='email'>Email:</label>
+                <input id='email'
+                        name='email'
+                        type='email'
+                        placeholder='joe@example.com'/>
+            </div>    
+            <fieldset class='legacy-form-row'>
+                <legend>Dept.:</legend>
+                <input id='talk-type-1'
+                        name='talk-type'
+                        type='radio'
+                        value='main-stage' />
+                <label for='talk-type-1' class='radio-label'>Customer Service</label>
+                <input id='talk-type-2'
+                        name='talk-type'
+                        type='radio'
+                        value='workshop' />
+                <label for='talk-type-2' class='radio-label'>Public Relations</label>
+                
+            </fieldset>
+
+              <div class='form-row'>
+                <label for='abstract'>Reason:</label>
+                <textarea id='abstract' name='abstract'></textarea>
+                <div class='instructions'>Describe your talk in 500 words or less</div>
+              </div>
+
+              <div class='form-row'>
+                <label class='checkbox-label' for='available'>
+                <input id='available'
+                       name='available'
+                       type='checkbox'
+                       value='is-available'/>
+                <span>This is urgent!</span>
+                </label>
+              </div>
+
+              <div class='form-row'>
+                <button>Submit</button>
+              </div>
+        </form>
+        </div>
+    </body>
+</html>
